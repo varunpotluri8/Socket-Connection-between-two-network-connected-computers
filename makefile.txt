@@ -1,0 +1,21 @@
+Compile Server and execute:
+gcc -o server server.c
+./server
+
+Compile Client and execute:
+gcc -o client client.c
+./client
+
+Output on Server side console/terminal:
+Socket retrieve success
+Bytes read 300
+Sending
+End of file
+Bytes received 300
+
+Output on Client side console/terminal:
+Server socket created
+Bytes received 300
+Bytes read 300
+Sending
+End of file
